@@ -17,8 +17,8 @@ Right menu: true
 Extra: ''
 */
 
-a:link { color: #811e1e; }
-a:visited, a:hover { color: #bd1010; }
+a:link { color: #163754; }
+a:visited, a:hover { color: #8a9aa9; }
 
 #header {
   background-color: #f4d9d9;
@@ -37,11 +37,11 @@ a:visited, a:hover { color: #bd1010; }
 
 #header .nav li a {
   color: white;
-  background-color: #811e1e;
+  background-color: #163754;
 }
 
 #header .nav li a:hover {
-  background-color: #bd1010;
+  background-color: #8a9aa9;
 }
 
 #header .nav li.current a {

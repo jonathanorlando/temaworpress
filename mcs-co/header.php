@@ -85,7 +85,7 @@ var searchJSONpath = "<?php echo get_bloginfo('home').'/wp-content/plugins/mcsaj
       <span id="sub-title"><?php bloginfo('description'); ?></span>
       <ul class="nav">
 <?php
-print ('<li class="'.(is_home()?'current_page_item':'').'"><a href="'.get_option('home').'/">Home</a></li>');
+print ('<li class="'.(is_home()?'current_page_item':'').'"><a href="'.get_option('home').'/">inicio</a></li>');
 ?>
 <?php wp_list_pages('sort_column=menu_order&title_li=&depth=1'); ?>
       </ul>
